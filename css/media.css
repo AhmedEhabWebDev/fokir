@@ -1,0 +1,214 @@
+@media screen and (max-width:990px) {
+    div.back {
+        width: 360px;
+        height: 440px;
+        border: 0px solid #555;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    div.back img {
+        position: absolute;
+        border-radius: 5px;
+        top: 0px;
+        left: 0px;
+    }
+    
+    div.hover {
+        position: absolute;
+        width: 360px;
+        height: 440px;
+        background-color: #555;
+        top: 0px;
+        bottom: 0;
+        left: 0px;
+        opacity: 0;
+        transition: opacity 1s;
+        text-align: center;
+    }
+    
+    .services div {
+        text-align: center;
+        float: left;
+        width: 48%;
+        line-height: 1.5;
+        padding: 40px 20px;
+        transition: background-color 1s , box-shadow 1s;
+    }
+    
+    .line-one div {
+        position: relative;
+        width: 45%;
+        margin: 0px 10px;
+        display: inline-block;
+    }
+    
+    .line-two div {
+        position: relative;
+        width: 45%;
+        margin: 0px 10px;
+        display: inline-block;
+    }
+    
+    .portfolio .hover {
+        position: absolute;
+        width: 433.34px;
+        height: 323.98px;
+        background-color: #333;
+        top: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        text-align: center;
+    }
+    
+    form input.email {
+        width: 48%;
+        margin-left: 9px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    div.about {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    div.right {
+        width: 70%;
+    }
+    
+    div.back {
+        width: 360px;
+        height: 440px;
+        border: 0px solid #555;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    div.back img {
+        position: absolute;
+        border-radius: 5px;
+        top: 0px;
+        left: 0px;
+    }
+    
+    div.hover {
+        position: absolute;
+        width: 360px;
+        height: 440px;
+        background-color: #555;
+        top: 0px;
+        bottom: 0;
+        left: 0px;
+        opacity: 0;
+        transition: opacity 1s;
+        text-align: center;
+    }
+    
+    div.hello {
+        width: 100%;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+    
+    div.ul div.left {
+        width: 100%;
+    }
+    
+    div.ul div.right {
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .services div {
+        text-align: center;
+        float: left;
+        width: 90%;
+        line-height: 1.5;
+        padding: 40px 20px;
+        transition: background-color 1s , box-shadow 1s;
+    }
+    
+    .line-one div {
+        position: relative;
+        width: 90%;
+        margin: 0px 10px;
+        display: inline-block;
+    }
+    
+    .line-two div {
+        position: relative;
+        width: 90%;
+        margin: 0px 10px;
+        display: inline-block;
+    }
+    
+    .portfolio .hover {
+        position: absolute;
+        width: 434.69px;
+        height: 325px;
+        background-color: #333;
+        top: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        text-align: center;
+    }
+    
+    div.nothing div.in-nothing div {
+        text-align: center;
+        float: none;
+        width: 25%;
+        color: #555;
+        margin: auto;
+    }
+
+    div.client div.client-con {
+        width: 90%;
+        background-color: #F1F1F1;
+        margin: auto;
+        padding: 40px 0px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    div.client div.client-con div.client-text div{
+        float: none;
+    }
+    
+    div.client div.client-con div.client-text div.client-img {
+        width: 40%;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    div.blog-con div.arts div{
+        width: 100%;
+        margin: auto;
+        float: none;
+        border: 15px solid #F1F1F1;
+        background-color: #fff;
+    }
+    
+    form input.name {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    
+    form input.email {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    
+    form input.sub {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
